@@ -66,3 +66,27 @@ body {
 .sec{
     margin: 30px;
 }
+
+textarea{
+    height: 150px;
+}
+.sec1 {
+    background-color: #5f9ac1; /* Background color */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding for content spacing */
+    text-align: center; /* Center align text */
+    border-radius: 8px; /* Rounded corners */;
+}
+
+.sec1 h2 {
+    margin-bottom: 10px; /* Margin below the heading */
+}
+
+
+.sec1 span {
+    font-style: italic;
+    color: #fafbb1; 
+    /*bold;*/
+    font-weight: bolder;
+}
+
