@@ -90,3 +90,7 @@ textarea{
     font-weight: bolder;
 }
 
+textarea{
+    height: 150px;
+    
+}
