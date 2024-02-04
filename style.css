@@ -344,3 +344,19 @@
   margin-bottom: 30px; /* Add space below the paragraph */
   margin-top: 10px;
 }
+.card_dis{
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+
+}
+
+.related{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  
+
+}
