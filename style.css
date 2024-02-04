@@ -281,3 +281,14 @@
 .links h1{
   margin-bottom: 2rem;
 }
+/* new  */
+.post_date span{
+  color: #797575; /* Dark text color */
+  line-height: 1.6; /* Increase line height for better readability */
+  
+}
+
+.post_date{
+  margin-bottom: 30px; /* Add space below the paragraph */
+  margin-top: 10px;
+}
