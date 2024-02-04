@@ -199,5 +199,101 @@
   color: #fff;
 
 }
+
+#tip {
+  max-width: 800px; /* Adjust the max-width to your preference */
+  margin: 0 auto; /* Center the form horizontally */
+  background-color: yellow;
+}
+
+.input-area {
+  width: 100%; /* Make the input area full width */
+}
+
+.message-box {
+  background-color: #f6c70a; /* Set a background color if needed */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.form-label {
+  color: #333; /* Set label color */
+}
+
+.form-control {
+  width: 100%; /* Make the textarea full width */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.btn-submit {
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
   
 
+/* Add this CSS to your style.css file */
+
+#discover {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+#discover h1 {
+  text-align: center;
+  color: var(--purple);
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  margin: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px; /* Adjust the height as needed */
+  border-radius: 8px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color:yellow;
+  border-color: var(--purple);
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color:red;
+  border-color: darken(var(--purple), 10%);
+}
